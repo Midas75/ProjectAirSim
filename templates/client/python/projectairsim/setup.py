@@ -45,7 +45,7 @@ setup(
         "jsonlines",
         "Shapely",
         "azure-storage-blob",
-        "open3d==0.16.*"  # LidarDisplay view setting is broken from 0.17.0
+        "open3d"  # LidarDisplay view setting is broken from 0.17.0
     ],
     python_requires=">=3.7, <4",
     extras_require={
